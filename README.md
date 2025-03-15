@@ -124,11 +124,9 @@ Skills/Tools Used:
 
 
 
+Outcome: total pnl of 216X over the course of 4 months
 
-
-
-
-Outcome:
+Link: **https://github.com/NMAlchemy/Portfolio/tree/main/memecoin-trading
 
 #### Project 2
 
