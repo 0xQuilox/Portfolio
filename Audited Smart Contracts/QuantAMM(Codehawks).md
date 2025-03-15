@@ -1,16 +1,16 @@
-Submission Link:
+## Submission Link:
 https://codehawks.cyfrin.io/c/2024-12-quantamm/s/159/
 
-Submission Details:
+## Submission Details:
 
 Users can escape fees due to no edge case handling
 by alchmy0
 
-Summary
+## Summary
 
 Users can escape fees due to no edge case handling
 
-Vulnerability Details
+## Vulnerability Details
 
 Observing the onAfterSwap function in the UpliftOnlyExample contract:
 
@@ -72,3 +72,19 @@ function onAfterSwap(
         }
         return (true, hookAdjustedAmountCalculatedRaw);
     }
+and
+uint256 hookFee = params.amountCalculatedRaw.mulUp(hookSwapFeePercentage);
+
+the value `amountCalculatedRaw` being very small and multiplying it by `hookSwapFeePercentage` can result in rounding down to zero due to Solidity's fixed-point arithmetic restrictions. For instance, let `amountCalculatedRaw = 1` and `hookSwapFeePercentage = 0.1% (1e15)`. The hookfee= 1 \* 1e15 / 1e18 = 0.0001 which is truncated due to integer division
+
+## Impact
+
+Users can split large swap amounts into smallers ones to incur no fees, which will result in a loss of revenue
+
+## Tools Used
+
+Manual Review
+
+## Recommendations
+
+Include a minimum fee to ensure that even small `amountCalculatedRaw` values incur a non-zero fee.
