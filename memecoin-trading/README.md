@@ -4,9 +4,9 @@ I’ve been trading Solana-based memecoins for [4 months], leveraging market ana
 ## Strategy
 - Used tools like DexScreener and Solscan to spot trending tokens.
 - Analyzed liquidity pools and wallet movements to time entries/exits.
-- Built a custom script (see `tracker.py`) to monitor price pumps.
+- Used telegram bots to monitor price pumps, sniper entries and track wallets.
 
 ## Results
-- Total PnL: +$XX,XXX over 6 months (Jan-Jun 2024).
-- Best trade: 10x return on [Token Name] in March 2024.
-- See `pnl-summary.pdf` for detailed breakdown.
+- Total PnL: +$XX,XXX over 4 months (Dec 2024- Mar 2025).
+- Best trade: 46x return on [Ou] in January 2025.
+
