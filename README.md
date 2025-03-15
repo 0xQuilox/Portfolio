@@ -23,8 +23,10 @@ Outcome: What you achieved (e.g., “Found and fixed a reentrancy bug”).
 
 Project 2
 Description: Engagement in bug bounty programs on BugCrowd
-Skills/Tools Used:
-Outcome:
+
+Skills/Tools Used: Chrome. BurpSuite
+
+Outcome: Discovery of Directory Listing Vulnerability, Sensitive Data Exposure 
 
 Links: **https://bugcrowd.com/submissions/f394bed8-bcfe-44f7-84ee-48d0087fed5c#activity-70241807-86cb-446f-b4c4-8a9e1394359a
 
