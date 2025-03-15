@@ -81,6 +81,8 @@ Skills/Tools Used:
 -Foundry
 -Remix IDE
 -VS Code
+-Solodit.xyz
+-Discord
 
 Outcome- discovery of 1 medium and 1 low vulnerabilities in two web3 projects
 
@@ -92,11 +94,27 @@ Links: **https://codehawks.cyfrin.io/c/2023-12-the-standard/s/113
 ### Memecoin Trading & Shilling 
 
 #### Project 1
-Description:
-Skills/Tools Used
+Description:Scalping, swing trading, liquidity pool analysis, or arbitrage (specify what you did
+
+Skills/Tools Used:
+
+-Dexscreener 
+-Telegram
+-Jupiter
+-Assetdash
+-X
+-Rugcheck.xyz
+-pump.fun
+
 Outcome:
+
 #### Project 2
-Description:
+
+Description: Served as a key shiller for [Coin Name], a dog-themed memecoin launched on [Blockchain Name]. Engaged with communities to boost hype and drive adoption during the presale phase."
+
+
+
+
 Skills/Tools Used:
 Outcome:
 
