@@ -8,7 +8,7 @@ Self taught Ethical Hacker, memecoin trader, shiller, Solidity Auditor with 2 ye
 
 Description: Penetration testing of a locally hosted e-commerce website with respect to the OWASP Top 2021.
 
-Skills/Tools Used: 
+Skills/Tools Used:
 
 -Penetration testing
 
@@ -112,11 +112,18 @@ Skills/Tools Used:
 
 -pump.fun
 
+- Coingecko, Solscan
+
 -Sniper Bot Usage(Trojan , Phanes)
 
 -Understanding FOMO dynamics, Tokenomics analysis, wallet tracking.
 
 -Pump-and-dump pattern recognition, community sentiment gauging.
+
+-Market timing, volume analysis, stop-loss management.
+
+
+
 
 
 
