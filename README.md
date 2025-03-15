@@ -9,6 +9,7 @@ Self taught Ethical Hacker, memecoin trader, shiller, Solidity Auditor with 2 ye
 Description: Penetration testing of a locally hosted e-commerce website with respect to the OWASP Top 2021.
 
 Skills/Tools Used: 
+
 -Penetration testing
 
 -Reconnaissance
@@ -37,7 +38,7 @@ Skills/Tools Used:
 
 
 
-Outcome: Found 8 out of 10 vulnerabilities among the OWASP Top 10 amd provided mitigative recommendations for them
+Outcome: Found 8 out of 10 vulnerabilities among the OWASP Top 10 and provided mitigative recommendations for them
 
 #### Project 2
 Description: Engagement in bug bounty programs on BugCrowd
@@ -79,6 +80,15 @@ Link: GitHub repo with code and a README explaining it.
 #### Project 2: Audit Report
 
 ### Memecoin Trading & Shilling 
+
+#### Project 1
+Description:
+Skills/Tools Used
+Outcome:
+#### Project 2
+Description:
+Skills/Tools Used:
+Outcome:
 
 
 
