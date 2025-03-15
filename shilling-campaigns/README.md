@@ -7,19 +7,27 @@ I’ve promoted various crypto projects, driving community growth and token adop
 - **Approach**: Organic hype, influencer collabs, meme-driven posts.
 
 ## Campaigns
-### 1. [Project Name]
+### 1. [Greed Academy]
 - **When**: [Month/Year]
 - **What**: Shilled a Solana memecoin to boost visibility.
 - **Strategy**: Posted daily X threads with memes and TA (technical analysis), engaged in Discord AMAs.
-- **Results**: Grew Twitter followers by 2k, contributed to a 3x price pump (see `screenshot1.png`).
-- **Evidence**: [Link to X post or `campaign1.pdf` with redacted stats].
+- **Evidence**: https://x.com/SunWukong205/status/1868723822675083447?t=R-xoDNnrYYu-erRGgYv6Ig&s=19
+- https://x.com/SunWukong205/status/1868706851854205433?t=R-xoDNnrYYu-erRGgYv6Ig&s=19
 
-### 2. [Project Name]
+### 2. [Send AI]
 - **When**: [Month/Year]
 - **What**: Promoted a DeFi presale.
 - **Strategy**: Coordinated with 5 micro-influencers, ran a giveaway.
 - **Results**: Helped raise $50k in presale funds.
 - **Evidence**: [Screenshots in `campaign2.png`].
+
+### [The Vault Finance]
+- **When**: [Month/Year]
+- **What**: Promoted a DeFi presale.
+- **Strategy**: Coordinated with 5 micro-influencers, ran a giveaway.
+- **Results**: Helped raise $50k in presale funds.
+- **Evidence**:
+
 
 ## Skills Gained
 - Community engagement
