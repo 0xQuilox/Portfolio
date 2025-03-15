@@ -9,37 +9,35 @@ Self taught Ethical Hacker, memecoin trader, shiller, Solidity Auditor with 2 ye
 Description: Penetration testing of a locally hosted e-commerce website with respect to the OWASP Top 2021.
 
 Skills/Tools Used: 
-Penetration testing
+-Penetration testing
 
-Reconnaissance
+-Reconnaissance
 
-Development of an e-commerce PHP website; E-COM assigned to the IP address 127.0.0.1 and hosting it on a local apache and MySQL server with the XAMPP software
+-Development of an e-commerce PHP website; E-COM assigned to the IP address 127.0.0.1 and hosting it on a local apache and MySQL server with the XAMPP software
 
-Windows 11 Operating System
+-Windows 11 Operating System
 
-Kali Linux 2022 Operating System
+-Kali Linux 2022 Operating System
 
-VMware Workstation
+-VMware Workstation
 
-Burp Suite Community Edition
+-Burp Suite Community Edition
 
-Xampp software
+-Xampp software
 
-Local Apache 2.4.54 server
+-Local Apache 2.4.54 server
 
-MySql
+-MySql
 
-Google Chrome browser
+-Google Chrome browser
 
-Mozilla Firefox browser
+-Mozilla Firefox browser
 
-Wordpress
-
-
+-Wordpress
 
 
 
-Outcome: What you achieved (e.g., “Found and fixed a reentrancy bug”).
+Outcome: Found 8 out of 10 vulnerabilities among the OWASP Top 10 amd provided mitigative recommendations for them
 
 #### Project 2
 Description: Engagement in bug bounty programs on BugCrowd
