@@ -86,9 +86,10 @@ Skills/Tools Used:
 -Remix IDE
 -VS Code
 
-Outcome- discovery of 1 medium and 1 low vulnerability in two projects
-Links: **
-**
+Outcome- discovery of 1 medium and 1 low vulnerabilities in two web3 projects
+Links: **https://codehawks.cyfrin.io/c/2023-12-the-standard/s/113
+
+** https://codehawks.cyfrin.io/c/2024-12-quantamm/s/159/
 
 
 ### Memecoin Trading & Shilling 
