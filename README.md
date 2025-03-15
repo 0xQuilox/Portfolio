@@ -3,12 +3,8 @@ Self taught Ethical Hacker, memecoin trader, shiller, Solidity Auditor with 2 ye
 
 ## Projects Section
 
-This is the meat of your portfolio. Include 4-6 tangible examples of your work across your skillset.
-
-
-
-For each project, use this format
-work.
+### Penetration Testing
+Project 1
 
 
 
@@ -29,7 +25,7 @@ Outcome: What you achieved (e.g., “Found and fixed a reentrancy bug”).
 
 Link/Code: GitHub link or file (if public), or say “available upon request” for sensitive work.
 
-Solidity & Smart Contract Auditing
+### Solidity & Smart Contract Auditing
 
 Project 1: Sample Smart Contract
 
@@ -54,6 +50,7 @@ Link: GitHub repo with code and a README explaining it.
 
 Project 2: Audit Report
 
+### Memecoin Trading & Shilling 
 
 
 
