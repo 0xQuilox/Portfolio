@@ -21,9 +21,15 @@ Skills/Tools Used: List them (e.g., Solidity, Slither, Wireshark).
 
 Outcome: What you achieved (e.g., “Found and fixed a reentrancy bug”).
 
+Project 2
+Description: Engagement in bug bounty programs on BugCrowd
+Skills/Tools Used:
+Outcome:
 
+Links: https://bugcrowd.com/submissions/f394bed8-bcfe-44f7-84ee-48d0087fed5c#activity-70241807-86cb-446f-b4c4-8a9e1394359a
+https://bugcrowd.com/submissions/40e58df0-8ae5-4c50-ae2b-b4ede7aa7b93#activity-875b5cee-55c2-4c35-ada1-8abad557e272
+https://bugcrowd.com/submissions/01846c32-c094-4861-9579-33ced52766ad#activity-ca9098a6-eb51-4a64-bf42-c056606c4001
 
-Link/Code: GitHub link or file (if public), or say “available upon request” for sensitive work.
 
 ### Solidity & Smart Contract Auditing
 
