@@ -56,7 +56,7 @@ Links: **https://bugcrowd.com/submissions/f394bed8-bcfe-44f7-84ee-48d0087fed5c#a
 
 ### Solidity & Smart Contract Auditing
 
-### Project 1: Sample Smart Contract
+### Project 1: Smart Contract Development (Solidity)
 
 Write a simple contract (e.g., a staking or voting system) in Solidity.
 
@@ -77,7 +77,19 @@ Outcome: “Optimized gas usage by 15% using storage patterns.”
 Link: GitHub repo with code and a README explaining it.
 
 
-#### Project 2: Audit Report
+#### Project 2: Smart Contract Auditing 
+Description: partcipation in audit contests on Codehawks 
+
+Skills/Tools Used:
+-Solidity
+-Foundry
+-Remix IDE
+-VS Code
+
+Outcome- discovery of 1 medium and 1 low vulnerability in two projects
+Links: **
+**
+
 
 ### Memecoin Trading & Shilling 
 
