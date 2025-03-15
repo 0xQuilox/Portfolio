@@ -61,8 +61,11 @@ Links: **https://bugcrowd.com/submissions/f394bed8-bcfe-44f7-84ee-48d0087fed5c#a
 Description: “Built a staking contract(StakeHo Finance) with deposit, withdraw, and reward functions.”
 
 Skills/Tools Used: 
+
 -Solidity
+
 -Remix
+
 -OpenZeppelin libraries.
 
 Outcome: Optimized gas usage by 15% using storage patterns
