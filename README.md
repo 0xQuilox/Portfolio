@@ -112,6 +112,15 @@ Skills/Tools Used:
 
 -pump.fun
 
+-Sniper Bot Usage(Trojan , Phanes)
+
+-Understanding FOMO dynamics, Tokenomics analysis, wallet tracking.
+
+-Pump-and-dump pattern recognition, community sentiment gauging.
+
+
+
+
 Outcome:
 
 #### Project 2
