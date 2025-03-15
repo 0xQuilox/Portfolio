@@ -12,7 +12,6 @@ hi
 - **What**: Shilled a Solana memecoin to boost visibility.
 - **Strategy**: Posted daily X threads with memes and TA (technical analysis), engaged in Discord AMAs.
 - **Evidence**: https://x.com/SunWukong205/status/1868723822675083447?t=R-xoDNnrYYu-erRGgYv6Ig&s=19
-- https://x.com/SunWukong205/status/1868706851854205433?t=R-xoDNnrYYu-erRGgYv6Ig&s=19
 
 ### 2. [Send AI]
 - **When**: [Month/Year]
