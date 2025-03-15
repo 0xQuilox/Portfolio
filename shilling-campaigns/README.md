@@ -19,7 +19,7 @@ hi
 - **What**: Promoted a DeFi presale.
 - **Strategy**: Coordinated with 5 micro-influencers, ran a giveaway.
 - **Results**: Helped raise $50k in presale funds.
-- **Evidence**: [Screenshots in `campaign2.png`].
+- **Evidence**: https://x.com/SunWukong205/status/1895262905064640517?t=FTbPMzHALFhyf80aCJhM4A&s=19
 
 ### [The Vault Finance]
 - **When**: [Month/Year]
