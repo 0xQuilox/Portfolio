@@ -6,16 +6,36 @@ Self taught Ethical Hacker, memecoin trader, shiller, Solidity Auditor with 2 ye
 ### Penetration Testing
 #### Project 1
 
+Description: Penetration testing of a locally hosted e-commerce website with respect to the OWASP Top 2021.
+
+Skills/Tools Used: 
+Penetration testing
+
+Reconnaissance
+
+Development of an e-commerce PHP website; E-COM assigned to the IP address 127.0.0.1 and hosting it on a local apache and MySQL server with the XAMPP software
+
+Windows 11 Operating System
+
+Kali Linux 2022 Operating System
+
+VMware Workstation
+
+Burp Suite Community Edition
+
+Xampp software
+
+Local Apache 2.4.54 server
+
+MySql
+
+Google Chrome browser
+
+Mozilla Firefox browser
+
+Wordpress
 
 
-
-
-
-Description: 1-2 sentences on what you did.
-
-
-
-Skills/Tools Used: List them (e.g., Solidity, Slither, Wireshark).
 
 
 
