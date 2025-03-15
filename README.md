@@ -110,15 +110,17 @@ Outcome:
 
 #### Project 2
 
-Description: Served as a key shiller for [Coin Name], a dog-themed memecoin launched on [Blockchain Name]. Engaged with communities to boost hype and drive adoption during the presale phase."
+Description:  shilled  for [Greed Academy], [The Vault Finance] and [Send AI], all projects launched on [Solana]. Engaged with their communities to boost hype and improve reach
 
+Skills/Tools Used: 
+-X
+-imgflip.com
+-superteam.earn
+-Discord
 
-
-
-Skills/Tools Used:
 Outcome:
 
-
+Links:
 
 
 ## Skills Summary
