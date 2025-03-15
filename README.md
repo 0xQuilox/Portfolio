@@ -54,23 +54,20 @@ Links: **https://bugcrowd.com/submissions/f394bed8-bcfe-44f7-84ee-48d0087fed5c#a
 **https://bugcrowd.com/submissions/01846c32-c094-4861-9579-33ced52766ad#activity-ca9098a6-eb51-4a64-bf42-c056606c4001
 
 
-### Solidity & Smart Contract Auditing
+### Solidity Dev & Smart Contract Auditing
 
 ### Project 1: Smart Contract Development (Solidity)
 
-Description: “Built a staking contract with deposit, withdraw, and reward functions.”
+Description: “Built a staking contract(StakeHo Finance) with deposit, withdraw, and reward functions.”
 
+Skills/Tools Used: 
+-Solidity
+-Remix
+-OpenZeppelin libraries.
 
+Outcome: Optimized gas usage by 15% using storage patterns
 
-Skills/Tools: Solidity, Remix, OpenZeppelin libraries.
-
-
-
-Outcome: “Optimized gas usage by 15% using storage patterns.”
-
-
-
-Link: GitHub repo with code and a README explaining it.
+Link: **https://github.com/NMAlchemy/Portfolio/tree/main/Web3%20Dev/StakeHo%20Finance
 
 
 #### Project 2: Smart Contract Auditing 
