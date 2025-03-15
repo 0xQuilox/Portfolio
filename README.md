@@ -4,7 +4,7 @@ Self taught Ethical Hacker, memecoin trader, shiller, Solidity Auditor with 2 ye
 ## Projects Section
 
 ### Penetration Testing
-Project 1
+#### Project 1
 
 
 
@@ -21,7 +21,7 @@ Skills/Tools Used: List them (e.g., Solidity, Slither, Wireshark).
 
 Outcome: What you achieved (e.g., “Found and fixed a reentrancy bug”).
 
-Project 2
+#### Project 2
 Description: Engagement in bug bounty programs on BugCrowd
 
 Skills/Tools Used: Chrome. BurpSuite
@@ -37,7 +37,7 @@ Links: **https://bugcrowd.com/submissions/f394bed8-bcfe-44f7-84ee-48d0087fed5c#a
 
 ### Solidity & Smart Contract Auditing
 
-Project 1: Sample Smart Contract
+### Project 1: Sample Smart Contract
 
 Write a simple contract (e.g., a staking or voting system) in Solidity.
 
@@ -58,7 +58,7 @@ Outcome: “Optimized gas usage by 15% using storage patterns.”
 Link: GitHub repo with code and a README explaining it.
 
 
-Project 2: Audit Report
+#### Project 2: Audit Report
 
 ### Memecoin Trading & Shilling 
 
