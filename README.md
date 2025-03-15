@@ -58,10 +58,6 @@ Links: **https://bugcrowd.com/submissions/f394bed8-bcfe-44f7-84ee-48d0087fed5c#a
 
 ### Project 1: Smart Contract Development (Solidity)
 
-Write a simple contract (e.g., a staking or voting system) in Solidity.
-
-
-
 Description: “Built a staking contract with deposit, withdraw, and reward functions.”
 
 
@@ -87,6 +83,7 @@ Skills/Tools Used:
 -VS Code
 
 Outcome- discovery of 1 medium and 1 low vulnerabilities in two web3 projects
+
 Links: **https://codehawks.cyfrin.io/c/2023-12-the-standard/s/113
 
 ** https://codehawks.cyfrin.io/c/2024-12-quantamm/s/159/
