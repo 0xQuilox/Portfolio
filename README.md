@@ -99,11 +99,17 @@ Description:Scalping, swing trading, liquidity pool analysis, or arbitrage (spec
 Skills/Tools Used:
 
 -Dexscreener 
+
 -Telegram
+
 -Jupiter
+
 -Assetdash
+
 -X
+
 -Rugcheck.xyz
+
 -pump.fun
 
 Outcome:
