@@ -119,9 +119,13 @@ Outcome:
 Description:  shilled  for [Greed Academy], [The Vault Finance] and [Send AI], all projects launched on [Solana]. Engaged with their communities to boost hype and improve reach
 
 Skills/Tools Used: 
+
 -X
+
 -imgflip.com
+
 -superteam.earn
+
 -Discord
 
 Outcome:
