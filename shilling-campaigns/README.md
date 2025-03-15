@@ -5,7 +5,7 @@ I’ve promoted various crypto projects, driving community growth and token adop
 - **Experience**: [X months/years] shilling memecoins, DeFi projects, etc.
 - **Platforms**: X, Discord, Telegram, etc.
 - **Approach**: Organic hype, influencer collabs, meme-driven posts.
-
+hi
 ## Campaigns
 ### 1. [Greed Academy]
 - **When**: [Month/Year]
@@ -26,7 +26,7 @@ I’ve promoted various crypto projects, driving community growth and token adop
 - **What**: Promoted a DeFi presale.
 - **Strategy**: Coordinated with 5 micro-influencers, ran a giveaway.
 - **Results**: Helped raise $50k in presale funds.
-- **Evidence**:
+- **Evidence**: https://x.com/SunWukong205/status/1868706851854205433?t=nCVEfQ8AEafzxU_kn4UsQA&s=19
 
 
 ## Skills Gained
