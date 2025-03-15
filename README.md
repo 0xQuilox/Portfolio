@@ -112,7 +112,7 @@ Skills/Tools Used:
 
 -pump.fun
 
-- Coingecko, Solscan
+-Coingecko, Solscan
 
 -Sniper Bot Usage(Trojan , Phanes)
 
