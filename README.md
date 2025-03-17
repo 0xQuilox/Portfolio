@@ -158,8 +158,8 @@ Include frameworks or tools you’ve used (e.g., Truffle, Metasploit).
 
 ## Contact Info
 
-### Gmail: miftahudeentajudeen@gmail.com 
-### X: @SunWukong205
+### Gmail: tajudeenkorede75@gmail.com
+### X: @TrQuilox87
 ### Telegram: @Neo031s
 
 
