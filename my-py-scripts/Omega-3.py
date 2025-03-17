@@ -12,7 +12,7 @@ def check_phishing(email_content):
 def main():
     # Connect to email server (update with your details)
     mail = imaplib.IMAP4_SSL('imap.gmail.com')  # Replace with your IMAP server
-    mail.login('tajudeenkorede75@gmail.com', '22Carpe8Diem2001')  # Replace with your email and password
+    mail.login('tajudeenkorede75@gmail.com', 'abcd efgh ijkl mnop')  # Replace with your email and password
     mail.select('inbox')  # Select the inbox folder
     _, data = mail.search(None, 'ALL')  # Search all emails
     for num in data[0].split():
