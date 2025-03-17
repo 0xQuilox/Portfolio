@@ -11,8 +11,8 @@ def check_phishing(email_content):
 
 def main():
     # Connect to email server (update with your details)
-    mail = imaplib.IMAP4_SSL('imap.example.com')
-    mail.login('your_email@example.com', 'password')
+    mail = imaplib.IMAP4_SSL('imap.gmail.com')
+    mail.login('neomorpheus247@gmail.com', 'Chinese.monkey1')
     mail.select('inbox')
     _, data = mail.search(None, 'ALL')
     for num in data[0].split():
