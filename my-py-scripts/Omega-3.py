@@ -13,13 +13,23 @@ def main():
     # Connect to Gmail's IMAP server
     mail = imaplib.IMAP4_SSL('imap.gmail.com')
     
+    # Set UTF-8 encoding explicitly to handle non-ASCII characters
+    mail._encoding = 'utf-8'  # Override default ASCII encoding
+    
     # Your email and password
     username = 'tajudeenkorede75@gmail.com'
-    password = '22Carpét8Diem2001'
+    password = '22Carpét8Diem2001'  # Replace with app password if needed
     
-    # Login with UTF-8 encoded password
-    mail.login(username, password.encode('utf-8').decode('utf-8'))  # Keep it as a string
-    mail.select('inbox')  # Select the inbox folder
+    # Login with error handling
+    try:
+        mail.login(username, password)
+        print("Login successful!")
+    except imaplib.IMAP4.error as e:
+        print(f"Login failed: {e}")
+        return
+    
+    # Select the inbox folder
+    mail.select('inbox')
     
     # Search all emails
     _, data = mail.search(None, 'ALL')
