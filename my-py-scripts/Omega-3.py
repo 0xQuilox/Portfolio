@@ -18,7 +18,7 @@ def main():
     
     # Your email and password
     username = 'tajudeenkorede75@gmail.com'
-    password = '22Carpét8Diem2001'  # Replace with app password if needed
+    password = '22Carpe8Diem2001'  # Replace with app password if needed
     
     # Login with error handling
     try:
