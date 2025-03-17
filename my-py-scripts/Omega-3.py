@@ -10,17 +10,28 @@ def check_phishing(email_content):
     return False
 
 def main():
-    # Connect to email server (update with your details)
+    # Connect to Gmail's IMAP server
     mail = imaplib.IMAP4_SSL('imap.gmail.com')
-    mail.login('tajudeenkorede75@gmail.com', '22Carpét8Diem2001')
-    mail.select('inbox')
+    
+    # Your email and password
+    username = 'tajudeenkorede75@gmail.com'
+    password = '22Carpét8Diem2001'
+    
+    # Login with UTF-8 encoded password
+    mail.login(username, password.encode('utf-8').decode('utf-8'))  # Keep it as a string
+    mail.select('inbox')  # Select the inbox folder
+    
+    # Search all emails
     _, data = mail.search(None, 'ALL')
     for num in data[0].split():
-        _, msg_data = mail.fetch(num, '(RFC822)')
+        _, msg_data = mail.fetch(num, '(RFC822)')  # Fetch email data
         raw_email = msg_data[0][1]
         msg = email.message_from_bytes(raw_email)
-        if check_phishing(msg.get_payload()):
+        # Check payload (email body)
+        payload = msg.get_payload(decode=True).decode('utf-8', errors='ignore') if msg.get_payload() else ""
+        if check_phishing(payload):
             print(f"Potential phishing email: {msg['Subject']}")
+    
     mail.close()
     mail.logout()
 
