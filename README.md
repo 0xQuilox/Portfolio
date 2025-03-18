@@ -53,6 +53,8 @@ Links: **https://bugcrowd.com/submissions/f394bed8-bcfe-44f7-84ee-48d0087fed5c#a
 
 **https://bugcrowd.com/submissions/01846c32-c094-4861-9579-33ced52766ad#activity-ca9098a6-eb51-4a64-bf42-c056606c4001
 
+**https://issues.chromium.org/issues/40885369#comment17
+
 
 ### Solidity Dev & Smart Contract Auditing
 
