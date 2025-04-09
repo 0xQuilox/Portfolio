@@ -10,7 +10,30 @@ Description: StakeHo is a gas-optimized Solidity smart contract designed for sta
 
 Language: Solidity
 
+Skills/Tools Used:
+-Remix
+-OpenZeppelin libraries.
+
+Outcome: Optimized gas usage by 15% using storage patterns
+
 Github repo: https://github.com/NMAlchemy/Portfolio/tree/main/Web3%20Dev/StakeHo%20Finance
+
+#### Project 2: Smart Contract Auditing 
+Description: partcipation in audit contests on Codehawks 
+
+Skills/Tools Used:
+-Solidity
+-Foundry
+-Remix IDE
+-VS Code
+-Solodit.xyz
+-Discord
+
+Outcome- discovery of 1 medium and 1 low vulnerabilities in two web3 projects
+
+Links: **https://codehawks.cyfrin.io/c/2023-12-the-standard/s/113
+
+** https://codehawks.cyfrin.io/c/2024-12-quantamm/s/159/
 
 ### Penetration Testing
 #### Project 1
@@ -63,43 +86,6 @@ Links: **https://bugcrowd.com/submissions/f394bed8-bcfe-44f7-84ee-48d0087fed5c#a
 **https://bugcrowd.com/submissions/01846c32-c094-4861-9579-33ced52766ad#activity-ca9098a6-eb51-4a64-bf42-c056606c4001
 
 **https://issues.chromium.org/issues/40885369#comment17
-
-
-### Solidity Dev & Smart Contract Auditing
-
-### Project 1: Smart Contract Development (Solidity)
-
-Description: “Built a staking contract(StakeHo Finance) with deposit, withdraw, and reward functions.”
-
-Skills/Tools Used: 
-
--Solidity
-
--Remix
-
--OpenZeppelin libraries.
-
-Outcome: Optimized gas usage by 15% using storage patterns
-
-Link: **https://github.com/NMAlchemy/Portfolio/tree/main/Web3%20Dev/StakeHo%20Finance
-
-
-#### Project 2: Smart Contract Auditing 
-Description: partcipation in audit contests on Codehawks 
-
-Skills/Tools Used:
--Solidity
--Foundry
--Remix IDE
--VS Code
--Solodit.xyz
--Discord
-
-Outcome- discovery of 1 medium and 1 low vulnerabilities in two web3 projects
-
-Links: **https://codehawks.cyfrin.io/c/2023-12-the-standard/s/113
-
-** https://codehawks.cyfrin.io/c/2024-12-quantamm/s/159/
 
 
 ### Memecoin Trading & Shilling 
