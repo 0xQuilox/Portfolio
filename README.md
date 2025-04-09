@@ -4,7 +4,7 @@ Self taught Ethical Hacker,Smart Contract Engineer, Solidity Auditor with 2 year
 ## Projects Section
 
 ### Smart Contracts
-#### Project 1 (StakeHo Finance)
+#### Project 1: (StakeHo Finance)
 
 Description: StakeHo is a gas-optimized Solidity smart contract designed for staking ERC20 tokens. Users can stake tokens, which are locked for a fixed 30-day period, earning rewards proportional to their staked amount and staking duration. Rewards are distributed over time by the contract owner, and users can claim them at any time or withdraw their stake after the lock period ends.
 
@@ -18,7 +18,21 @@ Outcome: Optimized gas usage by 15% using storage patterns
 
 Github repo: https://github.com/NMAlchemy/Portfolio/tree/main/Web3%20Dev/StakeHo%20Finance
 
-#### Project 2: Smart Contract Auditing 
+#### Project 2: (Yami)
+
+Description: Yami is a decentralized finance (DeFi) lending and borrowing platform built on the Ethereum blockchain. Inspired by protocols like Aave, Yami allows users to deposit assets to earn interest, borrow assets against collateral, and repay loans with dynamically calculated interest. The platform ensures security and stability through robust collateral management and liquidation mechanisms.
+
+Language: Solidity
+
+Skills/Tools Used:
+-Foundry
+-Remix
+-OpenZeppelin libraries
+
+Github repo: https://github.com/NMAlchemy/Portfolio/tree/main/Web3%20Dev/Yami
+
+
+#### Project 3: Smart Contract Auditing 
 Description: partcipation in audit contests on Codehawks 
 
 Skills/Tools Used:
