@@ -29,9 +29,9 @@ Skills/Tools Used:
 -Solodit.xyz
 -Discord
 
-Outcome- discovery of 1 medium and 1 low vulnerabilities in two web3 projects
+Outcome- discovery of 3 medium and 4 low vulnerabilities on Cantina.xyz, Code4rena and Codehawks
 
-Links: **https://codehawks.cyfrin.io/c/2023-12-the-standard/s/113
+Relevant Links: **https://codehawks.cyfrin.io/c/2023-12-the-standard/s/113
 
 ** https://codehawks.cyfrin.io/c/2024-12-quantamm/s/159/
 
