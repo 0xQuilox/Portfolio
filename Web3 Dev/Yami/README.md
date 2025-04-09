@@ -108,12 +108,94 @@ withdraw(address asset, uint256 amount): Allows asset withdrawals.
 liquidate(address borrower, address borrowAsset, address collateralAsset, uint256 repayAmount): Handles liquidation of undercollateralized positions.
 
 
+### Deployment
+
+Prerequisites
+
+Solidity Compiler: Version 0.8.0 or higher.
+
+OpenZeppelin Contracts: Used for ERC20 standards and access control (e.g., Ownable).
+
+Price Oracle: A pre-deployed oracle contract providing asset prices in USD with 18 decimals.
 
 
+Deployment Steps
+
+Deploy YamiLendingPool:
+
+Provide the address of the price oracle in the constructor.
+
+Configure Assets:
+
+Use addAsset to register each supported token with its parameters:
+
+Asset address.
+
+yToken name and symbol.
+
+Collateral eligibility (true/false).
+
+LTV ratio (e.g., 0.8e18 for 80%).
+
+Liquidation threshold (e.g., 0.85e18 for 85%).
 
 
+### Usage
+
+Deposit
+
+Function: deposit(address asset, uint256 amount)
+
+Steps:
+
+Approve the YamiLendingPool to transfer the specified amount of asset.
+
+Call deposit to transfer assets and receive yTokens.
 
 
+Borrow
 
+Function: borrow(address asset, uint256 amount)
+
+Steps:
+
+Ensure sufficient collateral is deposited to cover the borrow amount.
+
+Call borrow to receive the requested asset.
+
+Repay
+
+Function: repay(address asset, uint256 amount)
+
+
+Steps:
+
+Approve the YamiLendingPool to transfer the repayment amount of asset.
+
+Call repay to reduce the outstanding borrow balance.
+
+
+Withdraw
+
+Function: withdraw(address asset, uint256 amount)
+
+
+Steps:
+
+Verify that withdrawal won’t make the position undercollateralized.
+
+Call withdraw to burn yTokens and retrieve the underlying asset.
+
+
+Liquidate
+
+Function: liquidate(address borrower, address borrowAsset, address collateralAsset, uint256 repayAmount)
+
+
+Steps:
+
+Confirm the borrower’s position is undercollateralized.
+
+Call liquidate to repay part of the debt and seize collateral.
 
 
