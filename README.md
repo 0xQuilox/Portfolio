@@ -8,6 +8,8 @@ Self taught Ethical Hacker,Smart Contract Engineer, Solidity Auditor with 2 year
 
 Description: StakeHo is a gas-optimized Solidity smart contract designed for staking ERC20 tokens. Users can stake tokens, which are locked for a fixed 30-day period, earning rewards proportional to their staked amount and staking duration. Rewards are distributed over time by the contract owner, and users can claim them at any time or withdraw their stake after the lock period ends.
 
+Language: Solidity
+
 Github repo: https://github.com/NMAlchemy/Portfolio/tree/main/Web3%20Dev/StakeHo%20Finance
 
 ### Penetration Testing
