@@ -1,0 +1,48 @@
+[package]
+name = "equinox"
+version = "0.1.0"
+edition = "2025"
+description = "A stake-to-play chess game on Solana with dynamic returns"
+authors = ["Alchmy <miftahudeentajudeen@gmail.com>"]
+license = "MIT OR Apache-2.0"
+
+# Required for Solana programs
+[lib]
+crate-type = ["cdylib", "lib"]
+
+# Features for conditional compilation
+[features]
+default = ["anchor-lang/default"]
+no-entrypoint = []
+no-idl = []
+cpi = ["no-entrypoint"]
+
+# Dependencies
+[dependencies]
+anchor-lang = "0.29.0"  # Anchor framework for Solana programs
+solana-program = "1.18.9"  # Solana SDK for low-level program interactions
+thiserror = "1.0"  # Error handling for custom errors
+pleco = "0.5.0"  # Rust chess library for move validation and game state (optional)
+
+# Development dependencies (for testing)
+[dev-dependencies]
+anchor-syn = "0.29.0"  # Anchor syntax parsing for testing
+solana-program-test = "1.18.9"  # Solana test framework
+solana-sdk = "1.18.9"  # Solana SDK for test utilities
+tokio = { version = "1", features = ["macros", "rt"] }  # Async runtime for tests
+
+# Build configuration for Solana BPF target
+[target.bpfel-unknown-unknown.dependencies]
+solana-program = "1.18.9"
+
+# Patch section (optional, for version alignment if needed)
+[patch.crates-io]
+solana-program = { git = "https://github.com/solana-labs/solana", tag = "v1.18.9" }
+anchor-lang = { git = "https://github.com/coral-xyz/anchor", tag = "v0.29.0" }
+
+# Profiles for optimization
+[profile.release]
+overflow-checks = true
+lto = "fat"  # Link-time optimization for smaller binaries
+codegen-units = 1  # Minimize binary size
+opt-level = 3  # Maximum optimization
