@@ -1,0 +1,352 @@
+{
+  "version": "0.26.0",
+  "name": "equinox_chess",
+  "instructions": [
+    {
+      "name": "startGame",
+      "accounts": [
+        {
+          "name": "game",
+          "isMut": true,
+          "isSigner": false
+        },
+        {
+          "name": "playerOne",
+          "isMut": true,
+          "isSigner": true
+        },
+        {
+          "name": "systemProgram",
+          "isMut": false,
+          "isSigner": false
+        }
+      ],
+      "args": [
+        {
+          "name": "stake",
+          "type": "u64"
+        },
+        {
+          "name": "timeLimit",
+          "type": "u32"
+        }
+      ]
+    },
+    {
+      "name": "joinGame",
+      "accounts": [
+        {
+          "name": "game",
+          "isMut": true,
+          "isSigner": false
+        },
+        {
+          "name": "playerTwo",
+          "isMut": true,
+          "isSigner": true
+        },
+        {
+          "name": "systemProgram",
+          "isMut": false,
+          "isSigner": false
+        }
+      ],
+      "args": [
+        {
+          "name": "stake",
+          "type": "u64"
+        }
+      ]
+    },
+    {
+      "name": "makeMove",
+      "accounts": [
+        {
+          "name": "game",
+          "isMut": true,
+          "isSigner": false
+        },
+        {
+          "name": "player",
+          "isMut": true,
+          "isSigner": true
+        }
+      ],
+      "args": [
+        {
+          "name": "move",
+          "type": {
+            "defined": "ChessMove"
+          }
+        }
+      ]
+    },
+    {
+      "name": "resign",
+      "accounts": [
+        {
+          "name": "game",
+          "isMut": true,
+          "isSigner": false
+        },
+        {
+          "name": "player",
+          "isMut": true,
+          "isSigner": true
+        }
+      ],
+      "args": []
+    },
+    {
+      "name": "claimTimeout",
+      "accounts": [
+        {
+          "name": "game",
+          "isMut": true,
+          "isSigner": false
+        },
+        {
+          "name": "player",
+          "isMut": true,
+          "isSigner": true
+        }
+      ],
+      "args": []
+    },
+    {
+      "name": "endGame",
+      "accounts": [
+        {
+          "name": "game",
+          "isMut": true,
+          "isSigner": false
+        },
+        {
+          "name": "playerOne",
+          "isMut": true,
+          "isSigner": false
+        },
+        {
+          "name": "playerTwo",
+          "isMut": true,
+          "isSigner": false
+        },
+        {
+          "name": "systemProgram",
+          "isMut": false,
+          "isSigner": false
+        }
+      ],
+      "args": [
+        {
+          "name": "winner",
+          "type": {
+            "option": "publicKey"
+          }
+        }
+      ]
+    }
+  ],
+  "accounts": [
+    {
+      "name": "Game",
+      "type": {
+        "kind": "struct",
+        "fields": [
+          {
+            "name": "playerOne",
+            "type": "publicKey"
+          },
+          {
+            "name": "playerTwo",
+            "type": {
+              "option": "publicKey"
+            }
+          },
+          {
+            "name": "status",
+            "type": {
+              "defined": "GameStatus"
+            }
+          },
+          {
+            "name": "board",
+            "type": {
+              "array": ["u8", 64]
+            }
+          },
+          {
+            "name": "moves",
+            "type": {
+              "vec": {
+                "defined": "ChessMove"
+              }
+            }
+          },
+          {
+            "name": "stakeOne",
+            "type": "u64"
+          },
+          {
+            "name": "stakeTwo",
+            "type": "u64"
+          },
+          {
+            "name": "timeLimit",
+            "type": "u32"
+          },
+          {
+            "name": "lastMoveTime",
+            "type": "i64"
+          },
+          {
+            "name": "turn",
+            "type": "u8"
+          }
+        ]
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "ChessMove",
+      "type": {
+        "kind": "struct",
+        "fields": [
+          {
+            "name": "from",
+            "type": "string"
+          },
+          {
+            "name": "to",
+            "type": "string"
+          },
+          {
+            "name": "promotion",
+            "type": {
+              "option": "string"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "GameStatus",
+      "type": {
+        "kind": "enum",
+        "variants": [
+          {
+            "name": "Waiting"
+          },
+          {
+            "name": "Active"
+          },
+          {
+            "name": "Ended"
+          }
+        ]
+      }
+    }
+  ],
+  "events": [
+    {
+      "name": "GameStarted",
+      "fields": [
+        {
+          "name": "gameId",
+          "type": "publicKey",
+          "index": true
+        },
+        {
+          "name": "playerOne",
+          "type": "publicKey",
+          "index": true
+        },
+        {
+          "name": "stake",
+          "type": "u64",
+          "index": false
+        }
+      ]
+    },
+    {
+      "name": "MoveMade",
+      "fields": [
+        {
+          "name": "gameId",
+          "type": "publicKey",
+          "index": true
+        },
+        {
+          "name": "player",
+          "type": "publicKey",
+          "index": true
+        },
+        {
+          "name": "move",
+          "type": {
+            "defined": "ChessMove"
+          },
+          "index": false
+        }
+      ]
+    },
+    {
+      "name": "GameEnded",
+      "fields": [
+        {
+          "name": "gameId",
+          "type": "publicKey",
+          "index": true
+        },
+        {
+          "name": "winner",
+          "type": {
+            "option": "publicKey"
+          },
+          "index": true
+        },
+        {
+          "name": "payout",
+          "type": "u64",
+          "index": false
+        }
+      ]
+    }
+  ],
+  "errors": [
+    {
+      "code": 6000,
+      "name": "InvalidMove",
+      "msg": "The provided move is invalid."
+    },
+    {
+      "code": 6001,
+      "name": "NotPlayerTurn",
+      "msg": "It is not the player's turn."
+    },
+    {
+      "code": 6002,
+      "name": "GameNotActive",
+      "msg": "The game is not active."
+    },
+    {
+      "code": 6003,
+      "name": "GameAlreadyEnded",
+      "msg": "The game has already ended."
+    },
+    {
+      "code": 6004,
+      "name": "InsufficientStake",
+      "msg": "The provided stake is insufficient."
+    },
+    {
+      "code": 6005,
+      "name": "TimeoutNotReached",
+      "msg": "The timeout period has not been reached."
+    }
+  ],
+  "metadata": {
+    "address": "EqnxChess1111111111111111111111111111111111"
+  }
+}
