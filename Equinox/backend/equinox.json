@@ -1,0 +1,135 @@
+{
+  "server": {
+    "host": "0.0.0.0",
+    "port": 3000,
+    "basePath": "/api/v1",
+    "cors": {
+      "enabled": true,
+      "origins": ["http://localhost:3000", "https://equinox-chess.vercel.app"],
+      "methods": ["GET", "POST", "PUT", "DELETE"],
+      "allowedHeaders": ["Content-Type", "Authorization"]
+    },
+    "rateLimit": {
+      "enabled": true,
+      "windowMs": 60000,
+      "maxRequests": 100
+    }
+  },
+  "solana": {
+    "network": "devnet",
+    "rpcEndpoint": "https://api.devnet.solana.com",
+    "programId": "EqnxChess1111111111111111111111111111111111",
+    "wallet": {
+      "keypairPath": "./config/wallets/devnet-keypair.json",
+      "payerSecret": "env:PAYER_SECRET_KEY"
+    },
+    "anchor": {
+      "idlPath": "./config/anchor/equinox_chess.json",
+      "providerOptions": {
+        "commitment": "confirmed",
+        "preflightChecks": true
+      }
+    },
+    "gameAccount": {
+      "size": 1024,
+      "seed": "equinox-game"
+    }
+  },
+  "stockfish": {
+    "wasmPath": "./node_modules/stockfish.wasm/stockfish.wasm",
+    "options": {
+      "depth": 15,
+      "threads": 2,
+      "hash": 128,
+      "multiPv": 1,
+      "skillLevel": 20
+    },
+    "timeout": 5000,
+    "maxRetries": 3
+  },
+  "environments": {
+    "development": {
+      "server": {
+        "port": 3000,
+        "cors": {
+          "origins": ["http://localhost:3000"]
+        }
+      },
+      "solana": {
+        "network": "devnet",
+        "rpcEndpoint": "https://api.devnet.solana.com"
+      },
+      "logging": {
+        "level": "debug"
+      }
+    },
+    "testing": {
+      "server": {
+        "port": 3001
+      },
+      "solana": {
+        "network": "localnet",
+        "rpcEndpoint": "http://127.0.0.1:8899"
+      },
+      "stockfish": {
+        "options": {
+          "depth": 10,
+          "threads": 1
+        }
+      },
+      "logging": {
+        "level": "error"
+      }
+    },
+    "production": {
+      "server": {
+        "port": 8080,
+        "cors": {
+          "origins": ["https://equinox-chess.vercel.app"]
+        },
+        "rateLimit": {
+          "maxRequests": 500
+        }
+      },
+      "solana": {
+        "network": "mainnet-beta",
+        "rpcEndpoint": "https://api.mainnet-beta.solana.com"
+      },
+      "stockfish": {
+        "options": {
+          "depth": 20,
+          "threads": 4,
+          "hash": 256
+        }
+      },
+      "logging": {
+        "level": "info"
+      }
+    }
+  },
+  "logging": {
+    "level": "info",
+    "file": "./logs/equinox-backend.log",
+    "console": true,
+    "maxSize": "10m",
+    "maxFiles": 5
+  },
+  "testing": {
+    "jest": {
+      "timeout": 10000,
+      "environment": "node",
+      "coverage": {
+        "enabled": true,
+        "threshold": {
+          "statements": 80,
+          "branches": 75,
+          "functions": 80,
+          "lines": 80
+        }
+      }
+    },
+    "supertest": {
+      "baseUrl": "http://localhost:3001/api/v1"
+    }
+  }
+    }
