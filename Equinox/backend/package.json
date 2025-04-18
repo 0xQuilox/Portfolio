@@ -15,7 +15,7 @@
     "stockfish",
     "backend"
   ],
-  "author": "Your Name <your.email@example.com>",
+  "author": "Miftahudeen Tajudeen<miftahudeentajudeen@gmail.com>",
   "license": "MIT",
   "dependencies": {
     "@project-serum/anchor": "^0.26.0",
