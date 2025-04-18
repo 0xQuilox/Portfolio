@@ -1,5 +1,5 @@
 # Portfolio
-Self taught Ethical Hacker,Smart Contract Engineer, Solidity Auditor with 2 years experience in securing smart contracts, memecoin trader, shiller
+Blockchain dev, .py scripting guru, self taught Ethical Hacker, web2/3 security researcher with 2 years experience in securing smart contracts, memecoin trader, shiller
 
 ## Projects Section
 
