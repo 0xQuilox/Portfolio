@@ -1,0 +1,32 @@
+{
+  "name": "equinox-backend",
+  "version": "1.0.0",
+  "description": "Backend for the Equinox Web3 chess game on Solana, handling AI moves and smart contract interactions",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js",
+    "test": "jest"
+  },
+  "keywords": [
+    "solana",
+    "web3",
+    "chess",
+    "stockfish",
+    "backend"
+  ],
+  "author": "Your Name <your.email@example.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@project-serum/anchor": "^0.26.0",
+    "@solana/web3.js": "^1.87.6",
+    "express": "^4.18.2",
+    "stockfish.wasm": "^0.0.2"
+  },
+  "devDependencies": {
+    "dotenv": "^16.3.1",
+    "jest": "^29.7.0",
+    "nodemon": "^3.0.1",
+    "supertest": "^6.3.3"
+  }
+}
